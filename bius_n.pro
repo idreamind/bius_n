@@ -10,16 +10,18 @@ CONFIG   += c++11
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = bius_s
+TARGET = bius_n
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        TestView.cpp \
+SOURCES += \
+    main.cpp\
+    TestView.cpp \
     src/NLabel.cpp \
     src/NPanel.cpp
 
-HEADERS  += TestView.h \
+HEADERS  += \
+    TestView.h \
     Declarations.h \
     src/NLabel.h \
     src/NPanel.h
